@@ -18,5 +18,4 @@ experiencia.addEventListener('click', (ev) => pintarExperiencia(ev))
 principal.addEventListener('click', (ev) => pintarPrincipal(ev))
 proyectos.addEventListener('click', (ev) => pintarProyectos(ev))
 navMenu.addEventListener('click', () => pintarNavMenu(), ocultarMenu())
-na
 }
