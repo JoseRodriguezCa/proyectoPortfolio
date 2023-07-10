@@ -8,7 +8,7 @@ export const pintarHeader = () => {
     const header = document.querySelector('header');
     header.innerHTML = `    
     <div class="header-container">
-        <img class="small-image" src="./image/buceo.jpg" alt="">
+        <img class="small-image" src="https://res.cloudinary.com/dtgsaqjwa/image/upload/v1688974546/buceo_cyqjum.jpg" alt="">
         <nav>
             <ul class="init-container">
                 ${renderEnlaces(enlaces)}
