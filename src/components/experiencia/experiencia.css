@@ -149,6 +149,7 @@ background: linear-gradient(to right, #9c9c89, #ffffff);
 
   .experiencias img {
     width: 12%;
+    max-width: 65px;
   }
 
   .experiencias > h1 {
@@ -166,5 +167,9 @@ background: linear-gradient(to right, #9c9c89, #ffffff);
 
   .experiencias > p {
     font-size: 15px;
+  }
+
+  .experiencias:last-child {
+    left: -20px;
   }
 }
