@@ -19,7 +19,10 @@
 }
 
 body {
-  overflow: hidden;
+  -webkit-user-select: none; 
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .change-container {
@@ -31,6 +34,6 @@ body {
 
 @media (min-width: 360px) and (max-width: 900px) {
   .change-container {
-    height: 76vh;
+    height: 75vh;
   }
 }
