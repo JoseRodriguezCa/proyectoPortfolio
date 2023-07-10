@@ -21,7 +21,7 @@ export const proyectos = [
     tecnologias: "Html,css, Javascript y vite ",
     descripcion:"Proyecto en conjunto con mis compañeros de rock the code en el desarrollo de una web de viajes",
     año: 2023,
-    image: 'la imagen tengo que tomarla luego porque no tengo el gitpull de lo ultimo ayer no estuve xD',
+    image: 'https://res.cloudinary.com/dtgsaqjwa/image/upload/v1688979751/screenshot20230710105746_lcerzx.png',
     url:'none'
 },
 {
