@@ -1,46 +1,30 @@
 
 .principal-container{
-  transform: translateX(-1700px);
-  -webkit-transform: translateX(-1700px);
-  -moz-transform: translateX(-1700px);
-  -ms-transform: translateX(-1700px);
-  -o-transform: translateX(-1700px);
-  animation: movimientoizquierda 2s forwards;
-  -webkit-transform: translateX(-1700px);
-  -moz-transform: translateX(-1700px);
-  -ms-transform: translateX(-1700px);
-  -o-transform: translateX(-1700px);
-  -webkit-animation: movimientoizquierda 2s forwards;
-}
-
-
-
-
-.principal-img {
-  object-fit: cover;
-  height: 500px;
   width: 100%;
-  margin-top: 20px;
+  height: 70%;
+  background: linear-gradient(to top, #30ece2, #43726e); 
 }
 
 .presentation{
-    top: 290px;
-    left: 10px;
     position: absolute;
-    justify-content: center;
+    top: 20%;
     display: flex;
     flex-direction: column;
-    width: 96%;
-    height: 200px;
+    width: 100%;
+    height: 50%;
     color: var(--color-secundary);
     gap: 30px;
     animation: opacidad 2s normal ;
     -webkit-animation: opacidad 2s normal ;
+    align-items: center;
 }
 
   @keyframes opacidad {
     0%{opacity: 0;}
+    15%{opacity: 0.1;}
+    30%{opacity: 0.2;}
     50%{opacity: 0.5;}
+    70%{opacity: 0.7;}
     100%{opacity: 1;}
   }
   
@@ -48,26 +32,42 @@
   .presentation h1,
   .presentation h2,
   .presentation p {
-  background: linear-gradient(to right, #191914, #ffffff);
-      -webkit-background-clip: text;
-      background-clip: text;
-      -webkit-text-fill-color: transparent;
+    transform: translateX(-1700px);
+    -webkit-transform: translateX(-1700px);
+    -moz-transform: translateX(-1700px);
+    -ms-transform: translateX(-1700px);
+    -o-transform: translateX(-1700px);
+    animation: movimientoizquierda 2s forwards;
+    -webkit-transform: translateX(-1700px);
+    -moz-transform: translateX(-1700px);
+    -ms-transform: translateX(-1700px);
+    -o-transform: translateX(-1700px);
+    -webkit-animation: movimientoizquierda 2s forwards;
+    background: linear-gradient(to right, #afaf23, #b20808);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 3px;
+    border-style: outset;
+    border-radius: 20px;
+    padding: 10px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 
-
-@media (min-width: 360px) and (max-width: 800px) {
-
-  .principal-img {
-    object-fit: cover;
-    height: 300px;
-    width: 100%;
-    margin-top: 20px;
+  .presentation h1 {
+    font-size: 35px;
   }
+
+
+@media (min-width: 350px) and (max-width: 800px) {
+
 
   .presentation{
     width: auto;
     position: relative;
-    top: -200px;
   }
 
 
@@ -76,6 +76,7 @@
   }
 
   .presentation > h2 {
+    border-left: 1px;
     font-size: 18px;
   }
 

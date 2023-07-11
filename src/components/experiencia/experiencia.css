@@ -117,7 +117,7 @@ background: linear-gradient(to right, #9c9c89, #ffffff);
 }
 
 
-@media (min-width: 360px) and (max-width: 800px) {
+@media (min-width: 350px) and (max-width: 800px) {
   .text-container {
     width: 90%;
     margin: 10px 20px;
@@ -125,7 +125,6 @@ background: linear-gradient(to right, #9c9c89, #ffffff);
     gap: 10px;
 
   }
-
 
   .experiencias-container{
     flex-direction:row;

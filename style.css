@@ -32,7 +32,7 @@ body {
 }
 
 
-@media (min-width: 360px) and (max-width: 900px) {
+@media (min-width: 350px) and (max-width: 800px) {
   .change-container {
     height: 75vh;
   }
