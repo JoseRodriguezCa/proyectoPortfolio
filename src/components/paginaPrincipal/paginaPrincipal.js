@@ -7,6 +7,7 @@ export const pintarPrincipal = (ev) => {
     if (ev) { ev.preventDefault()}
     main.innerHTML = `
     <div class="principal-container">
+    <img class= "principal-img" src="https://res.cloudinary.com/dtgsaqjwa/image/upload/v1689243322/Predictive_Analytics_for_Maintenance_Events_f669lg.jpg" alt="">
         <div class="presentation">
             <h2>BIENVENIDOS</h2>
             <h1>Soy José Rodriguez</h1>
