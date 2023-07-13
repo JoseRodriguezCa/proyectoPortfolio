@@ -82,7 +82,13 @@
 
   .presentation{
     width: auto;
-    top: 61%;
+    top: 58%;
+  }
+
+  .principal-img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
   }
 
 
