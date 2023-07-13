@@ -25,7 +25,7 @@
 }
 
 .text-container h1 {
-  background: linear-gradient(to right, #399dd3, #a5c9dd);
+  background: linear-gradient(to right, #80eff5, #2b6eb0);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -33,7 +33,7 @@
 }
 
 .text-container h2 {
-  background: linear-gradient(to right, #399dd3, #a5c9dd);
+  background: linear-gradient(to right, #80eff5, #2b6eb0);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -41,7 +41,7 @@
 }
 
 .text-container p {
-  background: linear-gradient(to right, #399dd3, #a5c9dd);
+  background: linear-gradient(to right, #80eff5, #2b6eb0);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
