@@ -21,6 +21,27 @@
   -o-transform: translateX(-700px);
   animation: movimientoizquierda 2s forwards;
   -webkit-animation: movimientoizquierda 2s forwards;
+  left: 100px;
+}
+
+.text-container h1 {
+  background: linear-gradient(to right, #b8b818, #3800b2);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 32px;
+}
+
+.text-container h2 {
+  font-size: 23px;
+}
+
+.text-container p {
+  background: linear-gradient(to right, #b8b818, #3800b2);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 18px;
 }
 
 @keyframes movimientoizquierda {
@@ -87,7 +108,7 @@
 .experiencias h1,
 .experiencias h2,
 .experiencias p {
-background: linear-gradient(to right, #9c9c89, #ffffff);
+    background: linear-gradient(to right, #9c9c89, #ffffff);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;

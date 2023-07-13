@@ -11,9 +11,9 @@ export const pintarExperiencia = (ev) => {
     console.log("hola")
     main$$.innerHTML += `
     <div class="text-container">
-        <h1>Jose Rodriguez</h1>
+        <h1>José Rodriguez</h1>
         <h2>Junior Developer</h2>
-        <p>Realizando proyectos con html, css y js.</p>
+        <p>Realizando proyectos en html, css y js.</p>
         <p>Estudiando vite y react</p>
     </div>
     `
