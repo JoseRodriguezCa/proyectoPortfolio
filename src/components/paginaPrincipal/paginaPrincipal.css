@@ -12,11 +12,11 @@
 
 .presentation{
     position: absolute;
-    top: 50%;
+    top: 58%;
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 50%;
+    height: 40%;
     color: var(--color-secundary);
     gap: 30px;
     animation: opacidad 2s normal ;
@@ -69,7 +69,7 @@
   }
 
   .presentation h2 {
-    font-size: 35px;
+    font-size: 30px;
   }
   
   .presentation p {
@@ -81,15 +81,16 @@
 
 
   .presentation{
-    width: auto;
+    width: 99%;
     top: 58%;
+    height: 40%;
   }
 
   .principal-img {
     width: 100%;
-    height: 80%;
+    height: 100%;
     object-fit: cover;
-  }
+    }
 
 
   .presentation > h1 {
