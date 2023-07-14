@@ -154,20 +154,22 @@
   .experiencias-container{
     flex-direction:row;
     width: 100%;
-    height: 100%;
+    height: 50%;
     top: 49%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+
   }
 
   .experiencias {
     width: 100%;
     min-width: 90%;
-    height: 47%;
+    height: 95%;
     flex-direction: column;
     left: 20px;
     top: 0;
     gap: 5px;
     scroll-snap-align: start;
-
     justify-content: start;
   }
 
@@ -195,5 +197,18 @@
 
   .experiencias:last-child {
     left: -20px;
+  }
+
+  /* .experiencias-container::-webkit-scrollbar {
+    width: 1px;
+
+  } */
+
+  .experiencias-container::-webkit-scrollbar-track {
+    background: #463535; /* Color del fondo de la scrollbar */
+  }
+
+  .experiencias-container::-webkit-scrollbar-thumb {
+    background: #888; /* Color de la scrollbar */;
   }
 }
