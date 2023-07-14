@@ -202,13 +202,13 @@
   /* .experiencias-container::-webkit-scrollbar {
     width: 1px;
 
-  } */
+  }
 
   .experiencias-container::-webkit-scrollbar-track {
-    background: #463535; /* Color del fondo de la scrollbar */
+    background: #463535;
   }
 
   .experiencias-container::-webkit-scrollbar-thumb {
-    background: #888; /* Color de la scrollbar */;
-  }
+    background: #888;
+  } */
 }
