@@ -199,7 +199,7 @@
     left: -20px;
   }
 
-  /* .experiencias-container::-webkit-scrollbar {
+  .experiencias-container::-webkit-scrollbar {
     width: 1px;
 
   }
@@ -210,5 +210,5 @@
 
   .experiencias-container::-webkit-scrollbar-thumb {
     background: #888;
-  } */
+  }
 }
