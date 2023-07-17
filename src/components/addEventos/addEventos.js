@@ -1,3 +1,4 @@
+import { pintarContacto } from '../contacto/contacto'
 import { pintarExperiencia } from '../experiencia/experiencia'
 import { ocultarMenu, pintarNavMenu } from '../header/header'
 import { pintarPrincipal } from '../paginaPrincipal/paginaPrincipal'
@@ -14,8 +15,11 @@ const proyectos = document.querySelector("#proyectos")
 const contacto = document.querySelector("#contacto")
 const navMenu = document.querySelector("#nav-icon")
 
+
 experiencia.addEventListener('click', (ev) => pintarExperiencia(ev))
 principal.addEventListener('click', (ev) => pintarPrincipal(ev))
 proyectos.addEventListener('click', (ev) => pintarProyectos(ev))
 navMenu.addEventListener('click', () => pintarNavMenu(), ocultarMenu())
+contacto.addEventListener('click', (ev) => pintarContacto(ev))
+
 }
