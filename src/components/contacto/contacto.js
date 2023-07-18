@@ -32,8 +32,10 @@ export const pintarContacto = (ev) => {
     `;
     const btn = document.getElementById('button');
     document.getElementById('form')
+    const input$$ = document.querySelectorAll(".field")
      .addEventListener('submit', function(event) {
        event.preventDefault();
+       input$$.value = ""
     
        btn.value = 'Enviando...';
     
