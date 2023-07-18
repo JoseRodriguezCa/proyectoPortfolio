@@ -205,11 +205,11 @@
   }
 
   .experiencias-container::-webkit-scrollbar-track {
-    background: #80eff5;
+    background: #2b6eb0;
   }
 
   .experiencias-container::-webkit-scrollbar-thumb {
-    background: #2b6eb0;
+    background: #80eff5;
   }
 
 
