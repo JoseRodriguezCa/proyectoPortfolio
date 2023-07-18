@@ -23,7 +23,7 @@ export const pintarContacto = (ev) => {
     </div>
     <div class="field">
       <label for="message">Mensaje</label>
-      <input type="text" name="message" id="message" required>
+      <textarea name="message" id="message" required></textarea>
     </div>
   
     <input type="submit" id="button" value="Enviar mensaje" required >
@@ -32,11 +32,14 @@ export const pintarContacto = (ev) => {
     `;
     const btn = document.getElementById('button');
     document.getElementById('form')
-    const input$$ = document.querySelectorAll(".field")
      .addEventListener('submit', function(event) {
        event.preventDefault();
-       input$$.value = ""
-    
+       const inputs$$ = document.querySelectorAll("input");
+       const textarea$$ = document.querySelector("textarea")
+       textarea$$.value = "";
+       for (const input of inputs$$) {
+        input.value = "";
+       }
        btn.value = 'Enviando...';
     
        const serviceID = 'default_service';
