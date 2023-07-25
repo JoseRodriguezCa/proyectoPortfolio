@@ -8,6 +8,10 @@ export const pintarContacto = (ev) => {
   }
   main$$.innerHTML = "";
   main$$.innerHTML += `
+    <div class="Contacto">
+    <h1>Contactame</h1>
+    <h3>HAZME LLEGAR TU COMENTARIO, O DUDA...</h3>
+    </div>
     <form id="form">
     <div class="field">
       <label for="name">Nombre y Apellido</label>
@@ -55,5 +59,4 @@ export const pintarContacto = (ev) => {
         });
     });
 };
-
 

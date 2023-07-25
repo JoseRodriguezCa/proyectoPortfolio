@@ -1,3 +1,17 @@
+.Contacto{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background: linear-gradient(to right, #80eff5, #2b6eb0);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Contacto h1 {
+  font-size: 40px;
+}
+
 #form {
   display: flex;
   flex-direction: column;
@@ -5,10 +19,18 @@
   justify-content: center;
   align-items: center;
   margin-top: 20px;
+  transform: translateX(-1100px);
+  -webkit-transform: translateX(-1100px);
+  -moz-transform: translateX(-1100px);
+  -ms-transform: translateX(-1100px);
+  -o-transform: translateX(-1100px);
+  animation: movimientoizquierda 2s forwards;
+  -webkit-animation: movimientoizquierda 2s forwards;
 }
 
 .field {
     margin-bottom: 10px;
+    font-family: 'fontAwesome';
   }
   
   .field label {
@@ -19,7 +41,7 @@
   
   .field input,.field textarea {
     display: block;
-    min-width: 250px;
+    min-width: 400px;
     line-height: 1.5;
     font-size: 14px;
   }
@@ -48,6 +70,6 @@
 }
 
 #message {
-
-  height: 100px;
+  width: 600px;
+  height: 150px;
 }
