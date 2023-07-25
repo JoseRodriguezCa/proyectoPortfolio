@@ -80,9 +80,13 @@
 
   .field input,.field textarea {
     display: block;
-    min-width: 250px;
+    min-width: 300px;
     line-height: 1.5;
     font-size: 14px;
+  }
+
+  #message {
+    height: 150px;
   }
 
 }
