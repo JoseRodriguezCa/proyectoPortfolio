@@ -73,3 +73,16 @@
   width: 600px;
   height: 150px;
 }
+
+
+
+@media (min-width: 350px) and (max-width: 800px) {
+
+  .field input,.field textarea {
+    display: block;
+    min-width: 250px;
+    line-height: 1.5;
+    font-size: 14px;
+  }
+
+}
