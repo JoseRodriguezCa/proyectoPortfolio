@@ -30,7 +30,6 @@ body {
   height: 90svh;
   overflow: hidden;
   overflow-y: scroll;
-
 }
 
 
@@ -39,5 +38,12 @@ body {
     height: 77svh;
     overflow-x: hidden;
     overflow-y: scroll;
+  }
+}
+
+
+@media (max-height: 500px) {
+  .change-container {
+    height: 110svh;
   }
 }

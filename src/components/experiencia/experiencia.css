@@ -214,3 +214,13 @@
 
 
 }
+
+
+@media (max-height: 500px) {
+  .text-container {
+    width: 40%;
+    height: 60%;
+    gap: 10px;
+    left: 20px;
+  }
+}
