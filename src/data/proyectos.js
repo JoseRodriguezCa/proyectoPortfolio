@@ -2,7 +2,7 @@ export const proyectos = [
 {
     titulo: "Web responsive para ecommerce",
     tecnologias: "Html,css y Javascript",
-    descripcion:"Proyecto en el que teniamos que simular una web responsive para un ecommerce",
+    descripcion:"Proyecto en el que teniamos crear filtros para un ecommerce",
     año: 2023,
     image: 'https://res.cloudinary.com/dtgsaqjwa/image/upload/v1687161361/proyectoPortfolio/webecommerce_e1akdx.png',
     url:'https://dashing-zuccutto-b67392.netlify.app/src/index.html'
@@ -25,12 +25,12 @@ export const proyectos = [
     url:'none'
 },
 {
-    titulo: "Web responsive con utilizacion de api",
-    tecnologias: "Html,css, Javascript y vite ",
-    descripcion:"Proyecto en el que utilizamos una api, para practicar la asincronia y resolucion de promesas",
+    titulo: "Web responsive ecommerce",
+    tecnologias: "Html y css ",
+    descripcion:"1er proyecto the rock the code en el que simulamos una web ecommerce responsive",
     año: 2023,
-    image: 'la imagen tengo que tomarla luego porque no tengo el gitpull de lo ultimo ayer no estuve xD',
-    url: 'https://creative-zabaione-b808fd.netlify.app/'
+    image: 'https://res.cloudinary.com/dtgsaqjwa/image/upload/v1690367388/webecommerce1_pwbvj1.png',
+    url: 'https://dashing-zuccutto-b67392.netlify.app/'
 },
 {
     titulo: "Web con utilizacion de react",
